@@ -1,3 +1,10 @@
-<p>
-  navbar works!
-</p>
+<!--<nav [ngClass] = "'menu'">-->
+<nav class="bg-light">
+   <a routerLink="/home" routerLinkActive="active-link">Home</a> | 
+   <a routerLink="/curriculum" routerLinkActive="active-link">Curriculum</a> | 
+   <a routerLink="/schedule" routerLinkActive="active-link">Schedule</a> |
+   <a routerLink="/volunteer" routerLinkActive="active-link">Volunteer</a> |
+   <a routerLink="/gallery" routerLinkActive="active-link">Photos</a>
+</nav>  
+
+<router-outlet></router-outlet>

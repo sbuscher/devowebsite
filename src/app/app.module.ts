@@ -13,6 +13,8 @@ import { RegistrationComponent } from './registration/registration.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
     RegistrationComponent,
     AboutComponent,
     ContactComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
