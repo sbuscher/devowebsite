@@ -7,14 +7,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
-import { GalleryComponent } from './gallery/gallery.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
-import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProgramComponent } from './program/program.component';
+import { SupportComponent } from './support/support.component';
 
 @NgModule({
   declarations: [
@@ -23,14 +23,14 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     ScheduleComponent,
     CurriculumComponent,
-    GalleryComponent,
     VolunteerComponent,
     RegistrationComponent,
     AboutComponent,
     ContactComponent,
     SponsorsComponent,
-    HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ProgramComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,
