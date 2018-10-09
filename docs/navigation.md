@@ -7,12 +7,12 @@ Navbar
             Program info
             FAQ
             Sponsors
-        Program Info 
+        Program 
             Curriculum
             Locations
             Riders
             Coaches
-            Bikes
+            Equipment 
         Registration
             Tentative dates
             Price

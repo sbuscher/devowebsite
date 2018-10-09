@@ -15,7 +15,6 @@ const routes: Routes = [
   { path: 'schedule', component: ScheduleComponent },
   { path: 'support', component: SupportComponent }, 
   { path: 'about', component: AboutComponent }
-
 ];
 
 @NgModule({
