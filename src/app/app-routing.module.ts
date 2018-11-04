@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
-import { ProgramComponent } from './program/program.component';
-import { RegistrationComponent } from './registration/registration.component';
-import { ScheduleComponent } from './schedule/schedule.component';
-import { SupportComponent } from './support/support.component';
-import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './components/home/home.component';
+import { ProgramComponent } from './components/program/program.component';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { ScheduleComponent } from './components/schedule/schedule.component';
+import { SupportComponent } from './components/support/support.component';
+import { AboutComponent } from './components/about/about.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
